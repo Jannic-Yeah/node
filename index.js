@@ -5,5 +5,5 @@ app.use( async ( ctx ) => {
   ctx.body = 'hello koa2'
 })
 
-app.listen(80)
-console.log('[demo] start-quick is starting at port 80')
+app.listen(8080)
+console.log('[demo] start-quick is starting at port 8080')
